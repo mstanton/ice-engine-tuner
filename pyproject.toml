@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "combustion_engine_tuning"
+version = "0.1.0"
+description = "A project to optimize fuel efficiency in combustion engines using neural networks."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.3.0"
+tensorflow = "^2.6.0"
+uvicorn = "^0.15.0"  # For running ASGI applications
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
